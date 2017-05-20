@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">KTVController</string>
+
+    <string name="auto_connect_server">自動連線</string>
+    <string name="manual_connect_server">手動連線</string>
+    <string name="keyin_server_ip_hint">輸入畫面上的ID</string>
+    <string name="usemanualconnect">請使用手動連線</string>
+    <string name="connecting">連線中...</string>
+    <string name="searching">搜尋中...</string>
+    <string name="setting">設定中...</string>
+    <string name="connect_failed">連線失敗,檢查伺服器端是否開啟</string>
+    <string name="please_keyin_id">請輸入ID</string>
+    <string name="showImage">顯示影像</string>
+    <string name="pause">暫停</string>
+    <string name="start">開始</string>
+    <string name="cut">切歌</string>
+    <string name="closeImage">關閉影像</string>
+    <string name="not_support_now">尚未支援此功能</string>
+
+    <string name="originalsing_txt">原唱</string>
+    <string name="musiconly_txt">伴唱</string>
+    <string name="helpsing_txt">導唱</string>
+    <string name="downkey_txt">降Key</string>
+    <string name="originalkey_txt">原Key</string>
+    <string name="upkey_txt">升Key</string>
+    <string name="request_song">點歌</string>
+    <string name="terminate">結束</string>
+    <string name="terminate_hint">確定要結束KTV嗎?</string>
+    <string name="iwantsing">我要唱歌</string>
+    <string name="idonotwantsing">我不唱了</string>
+    <string name="insert_song">插播</string>
+    <string name="delete_song">刪除</string>
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+
+    <string name="slogan">大古小古</string>
+    <string name="nav1_general">一般點歌</string>
+    <string name="nav2_singer">歌手點歌</string>
+    <string name="nav3_hot">熱門點歌</string>
+    <string name="nav4_new">新進歌曲</string>
+    <string name="nav5_history">已點歌曲</string>
+
+    <string name="singer">歌手</string>
+    <string name="singertype">歌手類型</string>
+    <string name="all">全</string>
+    <string name="male_singer">男</string>
+    <string name="female_singer">女</string>
+    <string name="chorus_singer">團</string>
+    <string name="songname">歌名</string>
+    <string name="songnameword">歌名字數</string>
+    <string name="language">語言</string>
+    <string name="chinese">國</string>
+    <string name="taiwanese">台</string>
+    <string name="japan">日</string>
+    <string name="english">英</string>
+    <string name="yueiyu">粵</string>
+    <string name="chorus">合唱</string>
+    <string name="chorus_yes">合</string>
+    <string name="chorus_no">獨</string>
+    <string name="search">搜尋</string>
+
+    <string name="totalNum">共0筆</string>
+    <string name="total">共</string>
+    <string name="Num">筆</string>
+
+    <string name="search_singer_hint">輸入歌手姓名</string>
+
+    <string name="function_not_ready">功能尚未開放</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string-array name="drawer_menu">
+        <item>Apple</item>
+        <item>Book</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Eagle</item>
+        <item>Food</item>
+        <item>God</item>
+        <item>House</item>
+        <item>Iron</item>
+        <item>Jingle</item>
+    </string-array>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+
+
+</resources>

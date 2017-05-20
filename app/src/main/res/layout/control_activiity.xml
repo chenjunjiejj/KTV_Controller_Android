@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <RelativeLayout
+        android:id="@+id/RelatMotionView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@color/APP_COLOR"
+        android:orientation="horizontal">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@color/color_white"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/pause"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/showimage"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toLeftOf="@id/pause"
+            android:background="@drawable/showimage"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+
+        <Button
+            android:id="@+id/cut"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/pause"
+            android:background="@drawable/cut"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+
+        <Button
+            android:id="@+id/originalsing"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_below="@id/pause"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/originalsing"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/musiconly"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_below="@id/pause"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toLeftOf="@id/originalsing"
+            android:background="@drawable/musiconly"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/helpsing"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_below="@id/pause"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/originalsing"
+            android:background="@drawable/helpsing"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/originalkey"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_below="@id/originalsing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/originalkey"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/downkey"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_below="@id/originalsing"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toLeftOf="@id/originalkey"
+            android:background="@drawable/downkey"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/upkey"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_below="@id/originalsing"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/originalkey"
+            android:background="@drawable/upkey"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="25.0sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="1.0"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/terminateBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/btnselector"
+                android:gravity="center"
+                android:text="@string/terminate"
+                android:textColor="@color/color_white"
+                android:textSize="25.0sp" />
+
+            <Button
+                android:id="@+id/iwantsing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:background="@drawable/btnselector"
+                android:gravity="center"
+                android:text="@string/iwantsing"
+                android:textColor="@color/color_white"
+                android:textSize="25.0sp" />
+
+            <Button
+                android:id="@+id/request_song"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/btnselector"
+                android:gravity="center"
+                android:text="@string/request_song"
+                android:textColor="@color/color_white"
+                android:textSize="25.0sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
